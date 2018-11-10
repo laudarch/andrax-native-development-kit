@@ -1,0 +1,11 @@
+prefix=${frida_sdk_prefix}
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include/v8
+
+Name: V8
+Description: V8 JavaScript Engine
+Version: 6.2.2.0
+Libs: -L${libdir} -lv8_base -lv8_snapshot -lv8_libplatform -lv8_libsampler -lv8_libbase
+Libs.private: -llog -lm
+Cflags: -I${includedir} -I${includedir}/include

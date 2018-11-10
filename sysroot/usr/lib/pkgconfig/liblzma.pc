@@ -1,0 +1,19 @@
+#
+# Author: Lasse Collin
+#
+# This file has been put into the public domain.
+# You can do whatever you want with this file.
+#
+
+prefix=${frida_sdk_prefix}
+exec_prefix=${frida_sdk_prefix}
+libdir=${frida_sdk_prefix}/lib
+includedir=${frida_sdk_prefix}/include
+
+Name: liblzma
+Description: General purpose data compression library
+URL: https://tukaani.org/xz/
+Version: 5.3.0alpha
+Cflags: -I${includedir}
+Libs: -L${libdir} -llzma
+Libs.private:  

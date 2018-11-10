@@ -1,0 +1,9 @@
+Name: libecpg_compat
+Description: PostgreSQL libecpg_compat library
+Url: http://www.postgresql.org/
+Version: 10.4
+Requires: 
+Requires.private: libecpg libpgtypes
+Cflags: -I/data/data/com.thecrackertechnology.andrax/ANDRAX/postgresql/include
+Libs: -L/data/data/com.thecrackertechnology.andrax/ANDRAX/postgresql/lib -lecpg_compat
+Libs.private:  -lpq -lm

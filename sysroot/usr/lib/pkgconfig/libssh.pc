@@ -1,0 +1,6 @@
+Name: libssh
+Description: The SSH Library
+Version: 0.7.5
+Libs: -L/data/data/com.thecrackertechnology.andrax/ANDRAX/libssh/lib -lssh
+Cflags: -I/data/data/com.thecrackertechnology.andrax/ANDRAX/libssh/include
+

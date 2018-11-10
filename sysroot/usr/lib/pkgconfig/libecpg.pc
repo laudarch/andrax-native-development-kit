@@ -1,0 +1,9 @@
+Name: libecpg
+Description: PostgreSQL libecpg library
+Url: http://www.postgresql.org/
+Version: 10.4
+Requires: 
+Requires.private: libpq libpgtypes
+Cflags: -I/data/data/com.thecrackertechnology.andrax/ANDRAX/postgresql/include
+Libs: -L/data/data/com.thecrackertechnology.andrax/ANDRAX/postgresql/lib -lecpg
+Libs.private:  -lm
